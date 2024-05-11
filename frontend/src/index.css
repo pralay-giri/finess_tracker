@@ -1,0 +1,37 @@
+@tailwind base;
+html {
+    @apply bg-theme-bg-dark text-[#ffff];
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    @apply w-1 h-1;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-theme-color-blue rounded-sm;
+}
+
+.letter-space-1 {
+    letter-spacing: 0.25rem;
+}
+.letter-space-2 {
+    letter-spacing: 0.5rem;
+}
+.letter-space-3 {
+    letter-spacing: 0.75rem;
+}
+.letter-space-4 {
+    letter-spacing: 1rem;
+}
+
+.hide-input-conrtoler::-webkit-inner-spin-button {
+    display: none;
+}
+
+.word-brack-balanced {
+    word-break: balance;
+}
+
+@tailwind components;
+@tailwind utilities;
