@@ -17,7 +17,7 @@
 5. Profile:
     -   - ![Dashbord](./assets/profile.png)
 
--   ## for clone and run the app use this commands
+-   ## for clone
 
 1. clone the repo
 
